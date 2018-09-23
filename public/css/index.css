@@ -299,7 +299,7 @@ template {
 
 @font-face {
   font-family: 'BebasNeue';
-  src: url("../fonts/BebasNeue.otf") format("opentype"), url("../fonts/BebasNeue.ttf") format("truetype");
+  src: url("../fonts/BebasNeue.ttf") format("truetype"), url("../fonts/BebasNeue.otf") format("opentype");
   font-weight: normal;
   font-style: normal; }
 body {
