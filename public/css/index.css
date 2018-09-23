@@ -332,9 +332,7 @@ html {
 .header-tertiary {
   text-align: center;
   font-size: 1.7rem;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0; }
+  text-transform: uppercase; }
 
 .list {
   list-style-position: inside;
@@ -353,7 +351,7 @@ tr th:nth-child(3) {
   background: #2785ce;
   color: #fff; }
   .site-button:hover {
-    background: #1f69a3;
+    background: #2785ce;
     color: #fff; }
 
 .site-table td,
