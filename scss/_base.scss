@@ -1,11 +1,7 @@
 @font-face {
   font-family: 'BebasNeue';
-  src: url('../fonts/BebasNeue.eot');
-  src: url('../fonts/BebasNeue.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/BebasNeue.woff2') format('woff2'),
-    url('../fonts/BebasNeue.woff') format('woff'),
-    url('../fonts/BebasNeue.ttf') format('truetype'),
-    url('../fonts/BebasNeue.svg#BebasNeue') format('svg');
+  src: url('../fonts/BebasNeue.otf') format('opentype'),
+    url('../fonts/BebasNeue.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -50,9 +46,7 @@ html {
 }
 
 .list {
-  list-style-position: inside;
-  padding-left: 0;
-
+  padding-left: 30px;
   li {
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
@@ -80,7 +74,18 @@ tr th:nth-child(3) {
   td,
   th {
     border: none;
+    margin: 0;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: middle;
   }
+
+  td:first-child,
+  th:first-child {
+    padding-left: 25px;
+  }
+
   tr:nth-child(2n + 1) {
     background-color: rgba(230, 241, 255, 0.75);
   }
