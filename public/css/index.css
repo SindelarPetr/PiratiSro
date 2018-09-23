@@ -332,7 +332,9 @@ html {
 .header-tertiary {
   text-align: center;
   font-size: 1.7rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0; }
 
 .list {
   list-style-position: inside;
