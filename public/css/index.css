@@ -362,6 +362,18 @@ tr th:nth-child(3) {
 .site-table tr:nth-child(2n) {
   background-color: rgba(255, 255, 255, 0.5); }
 
+.material-icons.md-18 {
+  font-size: 18px; }
+
+.material-icons.md-24 {
+  font-size: 24px; }
+
+.material-icons.md-36 {
+  font-size: 36px; }
+
+.material-icons.md-48 {
+  font-size: 48px; }
+
 .nav-social-icon {
   color: grey;
   font-size: 120%; }
@@ -374,7 +386,13 @@ footer {
   background-color: #dbdbdb; }
 
 .comparison-in-our-app {
-  background-color: #f3c289;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
-  border-color: #000;
+  border-color: #eeaa5b;
+  border-width: 3px;
   transform: scale(1); }
+
+.comparison-in-our-app-header {
+  background-color: #eeaa5b; }
+
+.comparison-in-our-app-header-h {
+  color: black; }
