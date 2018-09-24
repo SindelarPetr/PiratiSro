@@ -18,6 +18,16 @@ body {
   background-color: $white-off;
 }
 
+.site-button {
+  background: $pirate-blue;
+  color: #fff;
+
+  &:hover {
+    background: darken($pirate-blue, 10%);
+    color: #fff;
+  }
+}
+
 .list {
   padding-left: 30px;
   li {

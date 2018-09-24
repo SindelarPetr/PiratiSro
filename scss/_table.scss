@@ -5,16 +5,6 @@ tr th:nth-child(3) {
   text-align: center;
 }
 
-.site-button {
-  background: $pirate-blue;
-  color: #fff;
-
-  &:hover {
-    background: darken($pirate-blue, 10%);
-    color: #fff;
-  }
-}
-
 .site-table {
   td,
   th {

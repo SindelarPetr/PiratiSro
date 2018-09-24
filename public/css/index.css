@@ -317,6 +317,13 @@ body {
 .sectionEven {
   background-color: #ededed; }
 
+.site-button {
+  background: #2785ce;
+  color: #fff; }
+  .site-button:hover {
+    background: #1f69a3;
+    color: #fff; }
+
 .list {
   padding-left: 30px; }
   .list li {
@@ -336,13 +343,6 @@ tr td:nth-child(3),
 tr th:nth-child(2),
 tr th:nth-child(3) {
   text-align: center; }
-
-.site-button {
-  background: #2785ce;
-  color: #fff; }
-  .site-button:hover {
-    background: #1f69a3;
-    color: #fff; }
 
 .site-table td,
 .site-table th {
