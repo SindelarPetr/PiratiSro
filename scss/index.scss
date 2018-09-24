@@ -1,6 +1,9 @@
 @import 'normalize'; // normalizes the browser defaults
+@import 'fonts';
 @import 'values';
 @import 'base';
 @import 'header';
+@import 'table';
+@import 'text-headers';
 @import 'footer';
-@import 'main';
+@import 'comparison';

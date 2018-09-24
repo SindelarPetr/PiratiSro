@@ -302,11 +302,11 @@ template {
   src: url("../fonts/BebasNeue.ttf") format("truetype"), url("../fonts/BebasNeue.otf") format("opentype");
   font-weight: normal;
   font-style: normal; }
-body {
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif; }
-
 html {
   font-size: 120%; }
+
+body {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif; }
 
 .bg-black {
   background-color: #000; }
@@ -317,27 +317,19 @@ html {
 .sectionEven {
   background-color: #ededed; }
 
-.header-primary {
-  text-align: center;
-  font-size: 4.5rem;
-  font-weight: bold;
-  font-family: 'BebasNeue', Helvetica, Arial, sans-serif; }
-
-.header-secondary {
-  text-align: center;
-  font-size: 3rem;
-  font-family: 'BebasNeue'; }
-
-.header-tertiary {
-  text-align: center;
-  font-size: 1.7rem;
-  text-transform: uppercase; }
-
 .list {
   padding-left: 30px; }
   .list li {
     padding-top: 0.2rem;
     padding-bottom: 0.2rem; }
+
+.nav-social-icon {
+  color: grey;
+  font-size: 120%; }
+
+.nav-social-icon:hover {
+  color: white;
+  text-decoration: none; }
 
 tr td:nth-child(2),
 tr td:nth-child(3),
@@ -368,25 +360,21 @@ tr th:nth-child(3) {
 .site-table tr:nth-child(2n) {
   background-color: rgba(255, 255, 255, 0.5); }
 
-.material-icons.md-18 {
-  font-size: 18px; }
+.header-primary {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: bold;
+  font-family: 'BebasNeue', Helvetica, Arial, sans-serif; }
 
-.material-icons.md-24 {
-  font-size: 24px; }
+.header-secondary {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'BebasNeue'; }
 
-.material-icons.md-36 {
-  font-size: 36px; }
-
-.material-icons.md-48 {
-  font-size: 48px; }
-
-.nav-social-icon {
-  color: grey;
-  font-size: 120%; }
-
-.nav-social-icon:hover {
-  color: white;
-  text-decoration: none; }
+.header-tertiary {
+  text-align: center;
+  font-size: 1.7rem;
+  text-transform: uppercase; }
 
 footer {
   background-color: #dbdbdb; }
