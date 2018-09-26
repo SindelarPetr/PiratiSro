@@ -376,6 +376,16 @@ tr th:nth-child(3) {
   font-size: 1.7rem;
   text-transform: uppercase; }
 
+.special-text {
+  color: #e58617; }
+
+.special-link {
+  color: #ce7815;
+  font-weight: bold;
+  text-decoration: underline; }
+  .special-link:hover {
+    color: #a05d10; }
+
 footer {
   background-color: #dbdbdb; }
 

@@ -16,3 +16,17 @@
   font-size: 1.7rem;
   text-transform: uppercase;
 }
+
+.special-text {
+  color: darken($pirate-yellow, 25%);
+}
+
+.special-link {
+  color: darken($pirate-yellow, 30%);
+  font-weight: bold;
+  text-decoration: underline;
+
+  &:hover {
+    color: darken($pirate-yellow, 40%);
+  }
+}
