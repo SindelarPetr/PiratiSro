@@ -349,8 +349,8 @@ tr th:nth-child(3) {
   border: none;
   margin: 0;
   padding: 5px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   vertical-align: middle; }
 .site-table td:first-child,
 .site-table th:first-child {

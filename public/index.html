@@ -13,7 +13,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css?version=5">
+  <link rel="stylesheet" href="css/index.css?version=6">
 </head>
 
 <body>
@@ -97,42 +97,55 @@
         může, si úředník
         zjistí sám. Kde nemusí být úředník, bude počítač.</p>
       <div class="row">
-        <div class="col-lg-4">
-          <h3 class="header-tertiary">Dnes</h3>
-          <div class="d-flex justify-content-center pb-3 m-0">
-            <ol class="list m-0 py-0">
-              <li><strong>Notář</strong> &mdash; je třeba sepsat dokumenty</li>
-              <li><strong>Živnostenský úřad</strong> &mdash; vyzvednout oprávnění</li>
-              <li><strong>Banka</strong> &mdash; složit základní kapitál</li>
-              <li><strong>Banka</strong> &mdash; založit účet pro základní kapitál</li>
-              <li><strong>Živnostenský úřad</strong> &mdash; registrovat živnosti</li>
-              <li><strong>Notář</strong> &mdash; je třeba sepsat dokumenty</li>
-            </ol>
+        <div class="container col-lg-8">
+          <div class="d-lg-flex col-lg-12">
+            <div class="col-lg-6">
+              <h3 class="header-tertiary">Dnes</h3>
+              <div class="d-flex justify-content-center pb-3 m-0">
+                <ol class="list m-0 py-0">
+                  <li><strong>Notář</strong> &mdash; je třeba sepsat dokumenty</li>
+                  <li><strong>Živnostenský úřad</strong> &mdash; vyzvednout oprávnění</li>
+                  <li><strong>Banka</strong> &mdash; složit základní kapitál</li>
+                  <li><strong>Banka</strong> &mdash; založit účet pro základní kapitál</li>
+                  <li><strong>Živnostenský úřad</strong> &mdash; registrovat živnosti</li>
+                  <li><strong>Notář</strong> &mdash; je třeba sepsat dokumenty</li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="col-lg-6 my-lg-0">
+              <h3 class="header-tertiary">Po pirátské novele</h3>
+              <div class="d-flex justify-content-center">
+                <ol class="list">
+                  <li><strong>Vyplnit formulář</strong> &mdash; online</li>
+                  <li><strong>Ověřit identitu</strong> &mdash; online nebo Czechpoint</li>
+                </ol>
+              </div>
+            </div>
           </div>
+          <!-- <p class="text-center">Dejte nám email a dozvíte se vše hned z první ruky.</p> -->
+          <form class="mb-3">
+            <div class="input-group">
+              <input class="form-control form-control-lg" type="email" placeholder="Dejte nám email a dozvíte se vše hned z první ruky.">
+              <div class="input-group-append">
+                <input class="site-button btn bg-blue px-4" type="submit" value="Odeslat">
+              </div>
+            </div>
+          </form>
         </div>
 
-        <div class="col-lg-4 my-3 my-lg-0">
-          <h3 class="header-tertiary">Po pirátské novele</h3>
-          <div class="d-flex justify-content-center">
-            <ol class="list">
-              <li><strong>Vyplnit formulář</strong> &mdash; online</li>
-              <li><strong>Ověřit identitu</strong> &mdash; online nebo Czechpoint</li>
-            </ol>
-          </div>
-        </div>
-
         <div class="col-lg-4">
-          <div class="comparison-in-our-app card rounded-0 h-100">
+          <div class="comparison-in-our-app card rounded-0">
             <div class="comparison-in-our-app-header card-header rounded-0 border-0">
               <h3 class="header-tertiary m-0 p-0 comparison-in-our-app-header-h">V naší
                 aplikaci už dnes</h3>
             </div>
-            <div class="d-flex justify-content-center bg-white pt-3">
-              <table class="mx-3 mb-3">
+            <div class="card-body bg-white pt-3">
+              <table class="comparison-in-our-app-table mb-3 mx-auto">
                 <tbody>
                   <tr>
                     <td><i class="fas fa-file-alt fa-2x"></i></td>
-                    <td class="pl-2 text-left"><strong>Vyplňte formulář online</strong></td>
+                    <td class="pl-2 text-left my-auto"><strong>Vyplňte formulář online</strong></td>
                   </tr>
                   <tr>
                     <td><i class="fas fa-file-export fa-2x py-3"></i></td>
@@ -144,13 +157,14 @@
                   </tr>
                 </tbody>
               </table>
+              <a class="site-button btn btn-lg btn-block rounded-0" href="https://urad.pirati.cz/zalozeni-firmy/">Založit
+                s.r.o.
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div class="mt-3">
-        <a class="site-button btn btn-lg btn-block rounded-0" href="https://urad.pirati.cz/zalozeni-firmy/">Založit
-          s.r.o.</a>
       </div>
     </div>
   </section>
@@ -256,21 +270,17 @@
   <!-- NEWSLETTER FOOTER -->
   <footer id="newsletter" class="footer">
     <div class="container py-5">
-      <div class="d-flex justify-content-center">
-        <div class="">
-          <h3 class="header-tertiary">Zajímá vás, co děláme pro podnikatele?</h3>
-          <p class="text-center">Dejte nám email a dozvíte se vše hned z první ruky.</p>
-          <form>
-            <div class="input-group">
-              <input class="form-control form-control-lg" type="email" placeholder="Email">
-              <div class="input-group-append">
-                <input class="site-button btn bg-blue px-4" type="submit" value="Odeslat">
-              </div>
+      <div class="my-auto">
+        <h3 class="header-tertiary">Zajímá vás, co děláme pro podnikatele?</h3>
+        <p class="text-center">Dejte nám email a dozvíte se vše hned z první ruky.</p>
+        <form>
+          <div class="input-group">
+            <input class="form-control form-control-lg" type="email" placeholder="Email">
+            <div class="input-group-append">
+              <input class="site-button btn bg-blue px-4" type="submit" value="Odeslat">
             </div>
-          </form>
-
-        </div>
-
+          </div>
+        </form>
       </div>
     </div>
   </footer>
