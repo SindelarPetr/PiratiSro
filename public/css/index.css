@@ -397,7 +397,8 @@ footer {
   border: 4px solid #eeaa5b; }
 
 .comparison-in-our-app-header {
-  background-color: #eeaa5b; }
+  background-color: #eeaa5b;
+  transform: scale(1, 1.05); }
 
 .comparison-in-our-app-header-h {
   color: black; }
