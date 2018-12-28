@@ -26,7 +26,7 @@
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/index.css?version=8" />
+    <link rel="stylesheet" href="css/index.css?version=9" />
   </head>
 
   <body>
@@ -97,8 +97,9 @@
                 <li>Vyplníte formulář, odešlete dokumenty... a to je vše.</li>
                 <li class="special-text">
                   Když projde náš
-                  <a class="special-link" href="#ourGoal">návrh zákona</a>,
-                  půjde to do 24 h a poplatek 500 Kč zaplatíte online.
+                  <a class="special-link scroll-link" href="#ourGoal"
+                    >návrh zákona</a
+                  >, půjde to do 24 h a poplatek 500 Kč zaplatíte online.
                 </li>
               </ul>
             </div>
@@ -108,6 +109,11 @@
               >Založit s.r.o.</a
             >
           </div>
+        </div>
+        <div class="row text-center">
+          <a class="text-dark mx-auto scroll-link" href="#ourGoal"
+            ><i class="fas fa-angle-down fa-3x"></i
+          ></a>
         </div>
       </div>
     </section>
@@ -188,12 +194,21 @@
                 </div>
               </div>
 
-              <form class="w-100 mt-auto mb-lg-3">
+              <form
+                action="https://pirati.us19.list-manage.com/subscribe/post?u=6f1b754167a9610ef8bbdd1e9&amp;id=a33bdfc28a"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate w-100 mt-auto mb-lg-3"
+                target="_blank"
+              >
                 <div class="input-group">
                   <input
                     class="form-control form-control-lg"
                     type="email"
                     placeholder="Dejte nám email a dozvíte se vše hned z první ruky."
+                    name="EMAIL"
+                    required
                   />
                   <div class="input-group-append">
                     <input
@@ -275,8 +290,8 @@
             <p class="text-center">I v opozici děláme to, co jsme slíbili.</p>
             <ul class="list">
               <li>
-                Navrhli jsme <a href="#">novelu zákona [DODAT ODKAZ]</a>, která
-                umožní stát se živnostníkem a založit si s.r.o. po internetu.
+                Navrhli jsme novelu zákona, která umožní stát se živnostníkem a
+                založit si s.r.o. po internetu.
               </li>
               <li>
                 Navíc jsme dodali aplikaci, která to zvládne, a ušetřili státu
@@ -411,12 +426,22 @@
           <p class="text-center">
             Dejte nám email a dozvíte se vše hned z první ruky.
           </p>
-          <form>
-            <div class="input-group">
+
+          <form
+            action="https://pirati.us19.list-manage.com/subscribe/post?u=6f1b754167a9610ef8bbdd1e9&amp;id=a33bdfc28a"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+          >
+            <div class="input-group col-lg-8 offset-lg-2">
               <input
                 class="form-control form-control-lg"
                 type="email"
                 placeholder="Email"
+                name="EMAIL"
+                required
               />
               <div class="input-group-append">
                 <input
@@ -428,9 +453,15 @@
             </div>
           </form>
         </div>
-        <div class="text-center mt-3">
-          Náš software je open source.
-          <a href="#">Chcete nám pomoci s vývojem? [DODAT ODKAZ]</a>
+        <div class="text-center mt-4">
+          Zakládáte firmy a chcete s námi spolupracovat?
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSccteOocadCfWRjUGtPxG7j4GkzZH9Q4putz7g6bQkL_t4ILQ/viewform"
+            >Zapojit se taky</a
+          >
+        </div>
+        <div class="text-center mt-2">
+          Náš software je open source. Chcete nám pomoci s vývojem?
         </div>
       </div>
     </footer>
@@ -452,7 +483,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/index.js?version=9"></script>
     <!-- /SCRIPTS -->
   </body>
 </html>

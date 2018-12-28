@@ -1,7 +1,5 @@
 // Add smooth scrolling
-$('.special-link').on('click', function(e) {
-  console.log('jajjjjjj');
-
+$('.scroll-link').on('click', function(e) {
   // Check for a hash value
   if (this.hash !== '') {
     // Prevent the default behavior
